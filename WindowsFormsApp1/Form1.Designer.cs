@@ -39,6 +39,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.txtAML = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnLoadAML = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtID
@@ -126,6 +127,8 @@
             this.txtAML.Name = "txtAML";
             this.txtAML.Size = new System.Drawing.Size(361, 394);
             this.txtAML.TabIndex = 9;
+            this.txtAML.Text = "<Item type=\'CAD\' action=\'get\'>\r\n<item_number condition=\'like\'>020*</item_number>\r" +
+    "\n</Item>";
             // 
             // label5
             // 
@@ -136,11 +139,22 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "AML";
             // 
+            // btnLoadAML
+            // 
+            this.btnLoadAML.Location = new System.Drawing.Point(27, 399);
+            this.btnLoadAML.Name = "btnLoadAML";
+            this.btnLoadAML.Size = new System.Drawing.Size(149, 23);
+            this.btnLoadAML.TabIndex = 11;
+            this.btnLoadAML.Text = "Load AML";
+            this.btnLoadAML.UseVisualStyleBackColor = true;
+            this.btnLoadAML.Click += new System.EventHandler(this.btnLoadAML_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLoadAML);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtAML);
             this.Controls.Add(this.button1);
@@ -172,6 +186,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtAML;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnLoadAML;
     }
 }
 

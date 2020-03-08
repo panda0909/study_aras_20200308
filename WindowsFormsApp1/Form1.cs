@@ -44,5 +44,19 @@ namespace WindowsFormsApp1
                 txtAML.Text = message;
             }
         }
+
+        private void btnLoadAML_Click(object sender, EventArgs e)
+        {
+            CAD cad = new CAD();
+            cad.item_number = "P380000001";
+            cad.name = "test";
+            cad.native_file = @"C:\Users\TLTC\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\程式練習.docx";
+
+            Item itm = inn.newItem("CAD", "add");
+            itm.setProperty("item_number", "P380000001");
+            itm.setProperty("name", "test");
+            itm.setFileProperty("native_file", @"C:\Users\TLTC\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\程式練習.docx");
+            itm = itm.apply();
+        }
     }
 }

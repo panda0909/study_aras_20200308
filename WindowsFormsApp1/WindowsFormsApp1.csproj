@@ -33,11 +33,108 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="IOM">
-      <HintPath>D:\9.SourceTree\Aras\11sp9\bin\IOM.dll</HintPath>
+    <Reference Include="Aras.Cryptography, Version=11.0.0.6549, Culture=neutral, PublicKeyToken=524d880b05474146, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Aras.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Aras.Diagnostics, Version=11.0.0.6549, Culture=neutral, PublicKeyToken=524d880b05474146, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Aras.Diagnostics.dll</HintPath>
+    </Reference>
+    <Reference Include="Aras.ES, Version=11.0.0.6549, Culture=neutral, PublicKeyToken=524d880b05474146, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Aras.ES.dll</HintPath>
+    </Reference>
+    <Reference Include="Aras.ES.Common, Version=11.0.0.6549, Culture=neutral, PublicKeyToken=524d880b05474146, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Aras.ES.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Aras.Net, Version=11.0.0.6549, Culture=neutral, PublicKeyToken=524d880b05474146, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Aras.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Aras.Server.Agent, Version=11.0.0.6549, Culture=neutral, PublicKeyToken=524d880b05474146, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Aras.Server.Agent.dll</HintPath>
+    </Reference>
+    <Reference Include="Aras.Server.HttpModules, Version=11.0.0.6549, Culture=neutral, PublicKeyToken=524d880b05474146, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Aras.Server.HttpModules.dll</HintPath>
+    </Reference>
+    <Reference Include="Aras.Server.ItemAnalysis, Version=11.0.0.6549, Culture=neutral, PublicKeyToken=524d880b05474146, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Aras.Server.ItemAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="Aras.Server.ItemAnalysis.Suppressions.Core, Version=11.0.0.6549, Culture=neutral, PublicKeyToken=524d880b05474146, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Aras.Server.ItemAnalysis.Suppressions.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Aras.TDF.Base, Version=11.0.0.6549, Culture=neutral, PublicKeyToken=524d880b05474146, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Aras.TDF.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Aras.Web.Configuration, Version=11.0.0.6549, Culture=neutral, PublicKeyToken=524d880b05474146, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Aras.Web.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Aras.Web.Server, Version=11.0.0.6549, Culture=neutral, PublicKeyToken=524d880b05474146, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Aras.Web.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Conversion.Base">
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Conversion.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="ConversionManager">
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\ConversionManager.dll</HintPath>
+    </Reference>
+    <Reference Include="CryptoKey">
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\CryptoKey.dll</HintPath>
+    </Reference>
+    <Reference Include="FileExchangeService">
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\FileExchangeService.dll</HintPath>
+    </Reference>
+    <Reference Include="InnovatorCore">
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\InnovatorCore.dll</HintPath>
+    </Reference>
+    <Reference Include="InnovatorReportServer">
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\InnovatorReportServer.dll</HintPath>
+    </Reference>
+    <Reference Include="IOM, Version=11.0.0.6549, Culture=neutral, PublicKeyToken=524d880b05474146, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\IOM.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.TransactSql.ScriptDom">
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Microsoft.SqlServer.TransactSql.ScriptDom.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Parser">
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="PLMIntegration">
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\PLMIntegration.DLL</HintPath>
+    </Reference>
+    <Reference Include="ReportExecution2005.Proxy">
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\ReportExecution2005.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="SPConnector">
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\SPConnector.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.HashFunction.Core, Version=1.8.2.2, Culture=neutral, PublicKeyToken=80c9288e394c1322, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\System.Data.HashFunction.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.HashFunction.Interfaces, Version=1.0.0.2, Culture=neutral, PublicKeyToken=80c9288e394c1322, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\System.Data.HashFunction.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.HashFunction.xxHash">
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\System.Data.HashFunction.xxHash.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,8 +144,12 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="UserNotifications">
+      <HintPath>D:\9.SourceTree\Aras\Dev11SP9\Innovator\Server\bin\UserNotifications.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAD.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
