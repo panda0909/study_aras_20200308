@@ -11,5 +11,8 @@ namespace WindowsFormsApp1
         public string item_number { set; get; }
         public string name { set; get; }
         public string native_file { set; get; }
+
+        public List<CAD> Structure { set; get; } = new List<CAD>();
+
     }
 }

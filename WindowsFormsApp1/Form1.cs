@@ -52,11 +52,36 @@ namespace WindowsFormsApp1
             cad.name = "test";
             cad.native_file = @"C:\Users\TLTC\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\程式練習.docx";
 
+            for(int i = 0; i < 10; i++)
+            {
+                CAD sub = cad;
+                sub.item_number =  "P-" + i;
+                cad.Structure.Add(sub);
+            }
+
+            Item result = AddItem(cad);
+            if (result.isError())
+            {
+                txtAML.Text = result.getErrorString();
+                return;
+            }
+            txtAML.Text = result.node.OuterXml;
+        }
+
+        private Item AddItem(CAD cad)
+        {
             Item itm = inn.newItem("CAD", "add");
-            itm.setProperty("item_number", "P380000001");
-            itm.setProperty("name", "test");
-            itm.setFileProperty("native_file", @"C:\Users\TLTC\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\程式練習.docx");
+            itm.setProperty("item_number", cad.item_number);
+            itm.setProperty("name", cad.name);
+            itm.setFileProperty("native_file", cad.native_file);
+
+            foreach (CAD item in cad.Structure)
+            {
+
+            }
+
             itm = itm.apply();
+            return itm;
         }
     }
 }
